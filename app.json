@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "PawSeva",
+    "slug": "pawseva",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F0620"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pawseva.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "PawSeva needs your location to find nearby pet shops.",
+        "NSLocationAlwaysUsageDescription": "PawSeva needs your location to find nearby pet shops."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F0620"
+      },
+      "package": "com.pawseva.app",
+      "versionCode": 4
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "WAKE_LOCK"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-location"
+    ]
+  }
+}

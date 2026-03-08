@@ -1,0 +1,22 @@
+
+export const ALL_SERVICES = [
+  { key: 'grooming', name: 'Grooming', icon: 'cut', color: '#FF6B6B' },
+  { key: 'vet_checkup', name: 'Vet Checkup', icon: 'medkit', color: '#4ECDC4' },
+  { key: 'haircut', name: 'Haircut', icon: 'color-palette', color: '#F4A228' },
+  { key: 'training', name: 'Training', icon: 'fitness', color: '#A78BFA' },
+  { key: 'boarding', name: 'Boarding', icon: 'home', color: '#34D399' },
+  { key: 'walking', name: 'Walking', icon: 'walk', color: '#60A5FA' },
+  { key: 'vaccination', name: 'Vaccination', icon: 'shield-checkmark', color: '#F472B6' },
+  { key: 'dental_care', name: 'Dental Care', icon: 'happy', color: '#FBBF24' },
+  { key: 'spa', name: 'Spa / Bath', icon: 'water', color: '#38BDF8' },
+  { key: 'nail_trim', name: 'Nail Trimming', icon: 'hand-left', color: '#FB923C' },
+  { key: 'deworming', name: 'Deworming', icon: 'bug', color: '#C084FC' },
+  { key: 'tick_treatment', name: 'Tick & Flea Treatment', icon: 'shield', color: '#F87171' },
+  { key: 'pet_taxi', name: 'Pet Taxi', icon: 'car', color: '#2DD4BF' },
+  { key: 'daycare', name: 'Daycare', icon: 'sunny', color: '#FCD34D' },
+  { key: 'breeding', name: 'Breeding Consultation', icon: 'heart', color: '#FB7185' },
+  { key: 'photography', name: 'Pet Photography', icon: 'camera', color: '#818CF8' },
+  { key: 'food_nutrition', name: 'Food & Nutrition', icon: 'nutrition', color: '#4ADE80' },
+  { key: 'emergency', name: 'Emergency / Critical Care', icon: 'alert-circle', color: '#EF4444' },
+  { key: 'other', name: 'Other', icon: 'ellipsis-horizontal', color: '#8B949E' },
+];
